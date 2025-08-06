@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1920px;
+    padding: 0 px;
+    margin: 0 auto;
+}
+
+html body{
+    font-family: 'Nunito';
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+ul li{
+    list-style: none;
+}
+
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.w-100{
+    width: 100%;
+}
+
+/* header section start  */
+header .navbar {
+    background-color: #00050D;
+    color: #fff;
+    padding: 12px 51px;
+}
+
+header .navbar .logo{
+    width: 100px;
+    margin-right: 2.5rem;
+}
+header .navbar ul li a{
+    padding: .5rem 1rem;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+header .navbar ul li a:hover{
+    background-color: #fff;
+    color: #00050D;
+}
+
+header .navbar ul li svg{
+    width: 21px;
+    fill: #fff;
+    margin-right: 5px;
+}
+
+header .navbar ul li a:hover svg{
+    fill: #00050D;
+}
+
+header .navbar ul:last-child li:not(:nth-child(2),:last-child) a{
+    border-radius: 50%;
+    padding: 12px 15px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header .navbar ul:last-child li:last-child a{
+    background-color: #1A98FFCC;
+    color: #fff;
+}
+
+header .navbar ul:last-child li:last-child a:hover{
+    box-shadow: #1A98FFCC 0px 7px 29px 0px;
+
+}
+/* header section end  */
+
+/* main section start  */
+.container .section1{
+    background-image: url("./images/MLP.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    background-repeat: repeat;
+    position: relative;
+}
+
+.container .section1 .text-content h1{
+    color: #fffdfd;
+    padding: 5rem;
+    font-size: 3.5rem;
+    position: absolute;
+}
+.container .section1 .text-content1{
+    position: absolute;
+    top: 10rem;
+    width: 50% ;
+}
+.container .section1 .text-content1 p{
+    color: #fff;
+    padding-left:5rem;
+    font-size: 1.5rem;
+}
+
+.content{
+    padding: 18rem;
+}
+
+.content .button1{
+    color: #000000;
+    /* width: 250px;
+    height: 80px; */
+    font-size: 1.5rem;
+    padding: 1.5rem ;
+    border-radius: 10px;
+    background-color: #fff; 
+}
+
+.content .button1:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+    box-shadow: inset 0 0 60px #32333399
+}
+
+.container1 .section2{
+    background-image: url("./images/TVOD_MLP_Right._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    background-repeat: repeat;
+    position: relative;
+}
+
+.container1 .section2 .text-content2 h1{
+    color: #fffdfd;
+    padding: 5rem;
+    font-size: 3.5rem;
+    position: absolute;
+}
+
+.card{
+    
+    background-color: #000000;
+    width: 45%;
+    height: 100%;
+    box-shadow: 70px 10px 70px 0px #000000, 80px 10px 80px 0px #000000;
+}
+
+.container1 .section2 .card .text-content3 {
+    color: #fff;
+   left: 5rem;
+    font-size: 1.5rem;
+    top: 15rem;
+    position: absolute;
+}
+
+.content2{
+    padding: 18rem;
+}
+
+.content2 .button2{
+    color: #000000;
+    width: 150px;
+    height: 80px;
+    font-size: 1.5rem;
+    padding: 1.5rem ;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.content2 .button2:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+    box-shadow: inset 0 0 60px #32333399
+}
+
+.container2 .section3{
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    background-repeat: repeat;
+    position: relative;
+}
+
+/* main section end  */
+
+/* body section start  */
+.section-3{
+    background-color: #00050D;
+    color: #fff;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.section-3 h1{
+    font-size: 50px;
+    padding-top: 2.5rem;
+}
+
+.section-3 p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 3rem 0;
+}
+
+.section-3 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section-3 img:hover{
+    box-shadow: #ffffff1a 0px 10px 10px 0px, #fffcfc1a 0px 0px 0px 1px;
+}
+
+/* body section end  */
+
+/* footer section start */
+footer{
+    background-color: #18262d;
+    color: #fff; 
+}
+
+.container .foot-img img{
+    width: 104px;
+    padding: 2rem 0;
+    width: 104px;
+    display: block;
+    justify-self: center;
+}
+
+footer .link{
+    text-align: center;
+}
+
+footer .link a{
+    color: #79b8f3;
+    padding: 0 1rem;
+
+}
+
+footer ul li a:hover{
+    color: #90dffe;
+}
+
+footer p{
+    font-size: 17px;
+    color: #8197a4;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+/* footer section end */
